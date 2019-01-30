@@ -49,7 +49,7 @@ pipeline {
         ARM_CLIENT_SECRET   = credentials("ARM_CLIENT_SECRET")
         ARM_TENANT_ID       = credentials("ARM_TENANT_ID")
         STORAGE_ACCOUNT_KEY = credentials("STORAGE_ACCOUNT_KEY")
-        WORKDIR_CMD         = '/var/lib/jenkins/workspace/vnet_pipeline/'
+        WORKDIR_CMD         = '/var/lib/jenkins/workspace/vnet_test2/'
     }
     stages {
         stage('checkout-repo') {
